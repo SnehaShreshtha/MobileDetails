@@ -1,0 +1,15 @@
+ul{
+	list-style-type: none;
+}
+.set1{
+	border: 1px solid #b6b6b6;
+}
+#mob-name{
+	color: #303f9f;
+}
+#mob-dec{
+}
+#mob-image{
+	height:100px;
+	width: 100px;
+}
