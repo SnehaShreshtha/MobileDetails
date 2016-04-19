@@ -1,15 +1,48 @@
-ul{
-	list-style-type: none;
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    margin: 0;
 }
-.set1{
-	border: 1px solid #b6b6b6;
-}
-#mob-name{
-	color: #303f9f;
-}
-#mob-dec{
-}
-#mob-image{
-	height:100px;
-	width: 100px;
-}
+.phones{ 
+ 	list-style-type: none;
+ 	margin-top: 0;
+    margin-bottom: 10px;
+ }
+.details {
+    border: 1px solid #b6b6b6;
+    border-radius: 4px;
+    height: 110px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;   
+    max-width: 80%;
+ } 
+ .mob-image{ 
+    width: 100px;
+    height:100px;
+    border: 0;
+    position: absolute;
+} 
+.mob-name{ 
+ 	font-weight: none;
+	font-size: 15px;
+	text-decoration: none;
+ 	text-align: left;
+ 	position: relative;
+ 	top:-4px;
+ 	bottom: 10px;
+ 	right:-110px;
+ 	padding-top:10px;
+} 
+.mob-dec{ 
+ 	font-weight: none;
+	font-size: 15px;
+ 	text-align: left;
+ 	position: relative;
+ 	top:-4px;
+ 	bottom: 10px;
+ 	right:-110px;
+ 	max-width: 80%;
+} 
